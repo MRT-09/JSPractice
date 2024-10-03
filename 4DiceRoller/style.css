@@ -1,0 +1,49 @@
+#title {
+    text-align: center;
+    margin: 1em;
+}
+
+#num-dice {
+    display: block;
+    height: 4rem;
+    width: 20rem;
+    margin: 1rem auto;
+    border: 1px solid #ffa500;
+    border-radius: 1rem;
+    font-size: xx-large;
+    text-align: center;
+}
+
+#roll {
+    display: block;
+    background-color: #ffa500;
+    height: 4rem;
+    width: 10rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 1rem;
+    font-size: xx-large;
+    transition: background-color 0.25s;
+}
+#roll:hover {
+    background-color: #ff5500;
+}
+#roll:active {
+    background-color: #ff2300;
+}
+#diceF {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.dice {
+    width: 4rem;
+    height: 4rem;
+}
+#message {
+    text-align: center;
+    margin: 1em;
+    opacity: 0;
+}

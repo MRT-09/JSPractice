@@ -1,0 +1,50 @@
+#title {
+    text-align: center;
+}
+#guess {
+    display: block;
+    height: 4rem;
+    width: 20rem;
+    margin: auto;
+    border: 1px solid #ffa500;
+    border-radius: 1rem;
+    font-size: xx-large;
+    text-align: center;
+}
+#message {
+    text-align: center;
+}
+#submit {
+    display: block;
+    background-color: #ffa500;
+    height: 4rem;
+    width: 10rem;
+    margin: auto;
+    border: none;
+    border-radius: 1rem;
+    font-size: xx-large;
+    transition: background-color 0.25s;
+}
+#submit:hover {
+    background-color: #ff5500;
+}
+#submit:active {
+    background-color: #ff2300;
+}
+#reset {
+    display: block;
+    background-color: #ffa500;
+    height: 2rem;
+    width: 5rem;
+    margin: 1rem auto;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: large;
+    transition: background-color 0.25s;
+}
+#reset:hover {
+    background-color: #ff5500;
+}
+#reset:active {
+    background-color: #ff2300;
+}

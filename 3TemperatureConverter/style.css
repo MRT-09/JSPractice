@@ -1,0 +1,42 @@
+#title {
+    text-align: center;
+}
+#inputD {
+    display: block;
+    height: 4rem;
+    width: 20rem;
+    margin: auto;
+    border: 1px solid #ffa500;
+    border-radius: 1rem;
+    font-size: xx-large;
+    text-align: center;
+}
+#unit {
+    display: block;
+    margin: 2rem auto;
+    font-size: x-large;
+    text-align: center;
+}
+.Roption {
+    margin: 0.5rem;
+}
+#submit {
+    display: block;
+    background-color: #ffa500;
+    height: 4rem;
+    width: 10rem;
+    margin: auto;
+    border: none;
+    border-radius: 1rem;
+    font-size: xx-large;
+    transition: background-color 0.25s;
+}
+#submit:hover {
+    background-color: #ff5500;
+}
+#submit:active {
+    background-color: #ff2300;
+}
+#message {
+    text-align: center;
+}

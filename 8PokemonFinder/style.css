@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+#title {
+    width: 100%;
+    text-align: center;
+    font-size: 3em;
+}
+#search {
+    background-color: #ffcc66;
+    color: #000000;
+    width: 75%;
+    height: 2.5rem;
+    text-align: center;
+    margin-left: calc(12.5%);
+    font-size: 1.5em;
+    border: 0.2rem solid #ddaa44;
+    border-radius: 1.25rem;
+}
+#search::-webkit-input-placeholder {
+    color: #000000;
+}
+.btn {
+    background-color: #ffa500;
+    height: 3rem;
+    width: 10rem;
+    margin: 1rem calc(50% - 5rem);
+    border: none;
+    border-radius: 1rem;
+    font-size: xx-large;
+    transition: background-color 0.25s;
+}
+.btn:hover {
+    background-color: #ff5500;
+}
+.btn:active {
+    background-color: #ff2300;
+}
+#info {
+    width: 75%;
+    margin-left: calc(12.5%);
+    border-collapse: collapse;
+    border: 0.2rem solid #ddaa44;
+    text-align: center;
+}
+.tableline {
+    height: 0.2rem;
+    border: none;
+    background-color: #ddaa44;
+}
+ul {
+    width: 15%;
+    margin: auto;
+    list-style: none;
+    text-align: left;
+}
+.typeItem {
+    display: flex;
+    align-items: center;
+    margin: 1rem;
+}
+.typeIcon {
+    display: block;
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    margin-right: 1rem;
+}
+.normalType {
+    background-color: #aaaaaa;
+}
+.fireType {
+    background-color: #f08030;
+}
+.waterType {
+    background-color: #6890f0;
+}
+.electricType {
+    background-color: #f8d030;
+}
+.grassType {
+    background-color: #78c850;
+}
+.iceType {
+    background-color: #98d8d8;
+}
+.fightingType {
+    background-color: #c03028;
+}
+.poisonType {
+    background-color: #a040a0;
+}
+.groundType {
+    background-color: #e0c068;
+}
+.flyingType {
+    background-color: #a890f0;
+}
+.psychicType {
+    background-color: #f85888;
+}
+.bugType {
+    background-color: #a8b820;
+}
+.rockType {
+    background-color: #b8a038;
+}
+.ghostType {
+    background-color: #705898;
+}
+.dragonType {
+    background-color: #7038f8;
+}
+.darkType {
+    background-color: #705848;
+}
+.steelType {
+    background-color: #b8b8d0;
+}
+.fairyType {
+    background-color: #ee99ac;
+}
+.ability {
+    list-style-type: none;
+    margin: 1rem;
+}

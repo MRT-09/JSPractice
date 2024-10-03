@@ -1,0 +1,23 @@
+#counter {
+    font-size: 10em;
+    text-align: center;
+}
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+.btn {
+    background-color: #ffa500;
+    font-size: 3em;
+    margin: 2rem;
+    padding: 1rem;
+    border: none;
+    border-radius: 1rem;
+    transition: background-color 0.25s;
+}
+.btn:hover {
+    background-color: #ff5500;
+}
+.btn:active {
+    background-color: #ff2300;
+}

@@ -1,0 +1,87 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#form {
+    width: 100%;
+    text-align: center;
+}
+#search {
+    background-color: #ffcc66;
+    color: #000000;
+    width: 20%;
+    height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    border: 0.2rem solid #ddaa44;
+    border-radius: 1.25rem;
+}
+#unit {
+    background-color: #ffcc66;
+    color: #000000;
+    width: 10%;
+    height: 2.5rem;
+    text-align: center;
+    margin-bottom: 1rem;
+    font-size: 1.5em;
+    border: 0.2rem solid #ddaa44;
+    border-radius: 1.25rem;
+}
+.btn {
+    background-color: #ffa500;
+    height: 3rem;
+    width: 10rem;
+    margin: 1rem calc(50% - 5rem);
+    border: none;
+    border-radius: 1rem;
+    font-size: xx-large;
+    transition: background-color 0.25s;
+}
+.btn:hover {
+    background-color: #ff5500;
+}
+.btn:active {
+    background-color: #ff2300;
+}
+#result {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+    height: 60%;
+    background-color: #ffa500;
+    border: 0.2rem solid #bb7100;
+    border-radius: 1rem;
+}
+#city {
+    font-size: 3rem;
+    font-weight: bolder;
+}
+#temperature {
+    font-size: 2rem;
+    font-weight: bolder;
+}
+#humidity {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#description {
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+#icon {
+    margin: auto;
+    width: 10rem;
+    height: 10rem;
+    text-align: center;
+    font-size: 6rem;
+}
+.errorDisplayed {
+    display: block;
+    color: red;
+}
+.errorUndisplayed {
+    display: none;
+}

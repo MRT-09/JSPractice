@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Guessing Game</title>
+    </head>
+    <body>
+        <h1 id="title">Convert temperature:</h1>
+        <input type="text" id="inputD" placeholder="Enter a number">
+        <div id="unit">
+            <input type="radio" id="CtoF" class="Roption" name="unit"><label for="CtoF">Celcius to Fahrenheit</label><br>
+            <input type="radio" id="FtoC" class="Roption" name="unit"><label for="FtoC">Fahrenheit to Celsius</label><br>
+            <input type="radio" id="CtoK" class="Roption" name="unit"><label for="CtoK">Celcius to Kelvin</label><br>
+            <input type="radio" id="KtoC" class="Roption" name="unit"><label for="KtoC">Kelvin to Celcius</label><br>
+            <input type="radio" id="FtoK" class="Roption" name="unit"><label for="FtoK">Fahrenheit to Kelvin</label><br>
+            <input type="radio" id="KtoF" class="Roption" name="unit"><label for="KtoF">Kelvin to Fahrenheit</label><br>
+        </div>
+        <button id="submit" class="submit">Submit</button>
+        <h1 id="message"></h1>
+        <script src="index.js"></script>
+    </body>
+</html>
